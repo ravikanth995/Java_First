@@ -30,11 +30,19 @@ public class Array_practice {
         //     System.out.println(i);
         // }
 
-        int a [] = {1, 2, 3, 4, 5, 6, 7};
+        // int a [] = {1, 2, 3, 4, 5, 6, 7};
+        // System.out.println(a.length);
+        // for (int i:a)
+        // {
+        //    System.out.println(i);
+        // }
+
+        int a [] = {1, 2, 3, 4};
+        System.out.println(Arrays.toString(a));
         System.out.println(a.length);
-        for (int i:a)
+        for (int x:a)
         {
-           System.out.println(i);
+            System.out.println(x);
         }
         
     }
